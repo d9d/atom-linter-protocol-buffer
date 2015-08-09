@@ -24,11 +24,6 @@ LinterProto =
 
         resolve([message])
 
-    # console.log(global.editor = textEditor)
-    # return new Promise (resolve, reject) ->
-    #   message = {type: 'Error', text: 'Something went wrong', range:[[0,0], [0,1]]}
-    #   resolve([message])
-
   config: (key) ->
     atom.config.get "linter-protocol-buffer.#{key}"
 
