@@ -3,7 +3,7 @@
   "main": "./lib/proto",
   "version": "0.2.0",
   "description": "Basic protocol buffer linter",
-  "keywords": [],
+  "keywords": ["proto", "protobuf", "protocol", "buffer", "lint", "linter"],
   "repository": "https://github.com/zyklus/atom-linter-protocol-buffer",
   "license": "Unlicense",
   "engines": {
