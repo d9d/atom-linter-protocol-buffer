@@ -1,4 +1,4 @@
-# proto-linter package
+# linter-protocol-buffer package
 
 A very basic protobuf "linter" that just tries to compile the file and shows the first error.  But
 it's better than nothing ;)
