@@ -17,7 +17,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "protobufjs": "^4.0.0"
+    "protobufjs": "^6.0.0"
   },
   "providedServices": {
     "linter": {
