@@ -8,7 +8,7 @@ LinterProto =
   lint: (textEditor) ->
     return new Promise (resolve, reject) ->
       try
-        pbjs.loadProto(textEditor.getText(), null, textEditor.getPath())
+        pbjs.parse(textEditor.getText(), null, textEditor.getPath())
         resolve([])
       catch err
         lineNum = /\sat line (\d+):/.exec(err.message)
